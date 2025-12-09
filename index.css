@@ -1,3 +1,4 @@
+
 a{
     color: black;
     display: block;
@@ -94,35 +95,39 @@ img{
     }
     p{
         margin-left: 0px;
+        margin-right: 0px;
+        font-size: 100%;
+        margin-top: 50px;
     }
     .me{
-        width: 600px;
+        width: 400px;
         margin-left: -20px;
         margin-top: -10px;
+        font-size: 100%;
     }
     .navbar{
         button{
-            width: 9x;
+            width: 75px;
             height:70px ;
-            font-size: 120%;
+            font-size: 110%;
 
         }
     }
     .about{
-        font-size: 180%;
-        width: 550px;
+        font-size: 110%;
+        width: 392px;
         margin-left: -0px;
 
     }
     .bb{
-        width: 500px;
+        width: 340px;
         font-size: 200%;
         height: 70px;
         margin-left: 20px;
     }
     .bc{
         margin-top: 10px;
-        width: 500px;
+        width: 340px;
         font-size: 200%;
         height: 70px;
         margin-left: 20px;
@@ -130,17 +135,9 @@ img{
     }
     .image{
         margin-top: 50px;
-        margin-left: 0px;
+        margin-left: 10px;
         img{
-            width: 550px;
+            width: 350px;
         }
     }
 }
-.navbar button:hover{
-    color: aliceblue;
-    background-color: #27ae60;
-    transition: 0.1s;
-
-
-}
-
