@@ -1,6 +1,20 @@
 a{
     color: black;
     display: block;
+    button{
+        width: 100px;
+        height: 40px;
+        border-radius: 7px;
+        color: #27ae60;
+        font-size: 90%;
+    }
+}
+p{
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-right: 850px;
+    color: #27ae60;
+    font-size: 125%;
 }
 
 
@@ -11,7 +25,7 @@ img{
 .me{
     text-align: center;
     font-size: 200%;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .about{
     margin-left: 100px;
@@ -32,7 +46,11 @@ img{
 }
 .image{
     margin-left: 700px;
-    margin-top: -150px;
+    margin-top: -170px;
+    img{
+        border-radius: 50px;
+    }
+    
 }
 .navbar{
     display: flex;
@@ -40,7 +58,7 @@ img{
         margin-left: 20px;
         margin-top: 30px;
         background-color: white;
-        border-color:greenyellow;
+        border-color:#27ae60;
     }
 }
 .bb{
@@ -49,27 +67,33 @@ img{
     width: 150px;
     height: 40px;
     border-radius: 5px;
-    background-color: greenyellow;
-    border-color: greenyellow;
+    background-color: #27ae60;
+    border-color: #27ae60;
 }
 .bc{
     width: 150px;
     height: 40px;
     border-radius: 5px;
-    background-color: greenyellow;
-    border-color: greenyellow;
+    background-color: #27ae60;
+    border-color: #27ae60;
 }
 .rasul{
-    margin-right: 1050px;
+    margin-right: 950px;
     width: 120px;
     height: 35px;
 }
+
+
+
 @media (max-width:600px) {
     .rasul{
-        margin-right: 100px;
+        margin-right: 70px;
         button{
             width: 120px;
         }
+    }
+    p{
+        margin-left: 0px;
     }
     .me{
         width: 600px;
@@ -78,14 +102,15 @@ img{
     }
     .navbar{
         button{
-            width: 100px;
+            width: 9x;
             height:70px ;
-            font-size: 200%;
+            font-size: 120%;
+
         }
     }
     .about{
         font-size: 180%;
-        width: 800px;
+        width: 550px;
         margin-left: -0px;
 
     }
@@ -106,12 +131,16 @@ img{
     .image{
         margin-top: 50px;
         margin-left: 0px;
+        img{
+            width: 550px;
+        }
     }
 }
 .navbar button:hover{
     color: aliceblue;
-    background-color: greenyellow;
+    background-color: #27ae60;
     transition: 0.1s;
 
 
 }
+
