@@ -13,7 +13,7 @@ a{
 p{
     margin-left: 100px;
     margin-top: 40px;
-    margin-right: 850px;
+    margin-right: 800px;
     color: #27ae60;
     font-size: 125%;
 }
@@ -96,41 +96,43 @@ img{
     p{
         margin-left: 0px;
         margin-right: 0px;
-        font-size: 100%;
-        margin-top: 50px;
+        font-size: 90%;
+        margin-top: 30px;
+        width: 40%;
     }
     .me{
-        width: 400px;
-        margin-left: -20px;
+        width: 300px;
+        margin-left: 5px;
         margin-top: -10px;
-        font-size: 100%;
+        font-size: 90%;
     }
     .navbar{
+        width: 30%;
         button{
-            width: 75px;
-            height:70px ;
-            font-size: 110%;
-
+            width: 60px;
+            height:40px ;
+            font-size: 90%;
+            margin-left: 15px;
         }
     }
     .about{
         font-size: 110%;
-        width: 392px;
-        margin-left: -0px;
+        width: 330px;
+        margin-left: 5px;
 
     }
     .bb{
         width: 340px;
         font-size: 200%;
         height: 70px;
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .bc{
         margin-top: 10px;
         width: 340px;
         font-size: 200%;
         height: 70px;
-        margin-left: 20px;
+        margin-left: 10px;
 
     }
     .image{
