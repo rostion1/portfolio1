@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Security Blog</title>
+  <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+
+<header>
+  <h1>Blog</h1>
+  <p class="author">Rasul Quliyev</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>SQL Injection</h2>
+    <p>
+      SQL Injection occurs when user input is improperly handled in database queries.
+    </p>
+
+    <details>
+      <summary>More details</summary>
+      <p>
+        SQL Injection is one of the most well-known and dangerous web vulnerabilities.
+        It happens when an application directly inserts user input into SQL queries
+        without proper validation or sanitization.
+
+        <br><br>
+        Attackers can use SQL Injection to bypass authentication mechanisms,
+        access sensitive user data, modify records, or even completely delete databases.
+        In some cases, attackers may gain administrative access to the system.
+
+        <br><br>
+        Common causes include dynamic SQL queries, lack of input validation,
+        and poor database access controls. This vulnerability mainly affects
+        applications that interact with relational databases.
+
+        <br><br>
+        The best prevention methods are using prepared statements,
+        parameterized queries, stored procedures, and strict input validation.
+        Applying the principle of least privilege to database users
+        also greatly reduces the impact of successful attacks.
+      </p>
+    </details>
+  </section>
+
+  <section>
+    <h2>Cross-Site Scripting (XSS)</h2>
+    <p>
+      XSS allows attackers to inject malicious scripts into web pages.
+    </p>
+
+    <details>
+      <summary>More details</summary>
+      <p>
+        Cross-Site Scripting vulnerabilities appear when an application
+        displays user-supplied input without proper output encoding.
+        As a result, malicious JavaScript code can be executed
+        inside a victim's browser.
+
+        <br><br>
+        XSS attacks are commonly used to steal session cookies,
+        capture keystrokes, manipulate web content, or redirect users
+        to phishing pages. This vulnerability directly affects users,
+        not the server itself.
+
+        <br><br>
+        There are different types of XSS attacks including
+        Stored XSS, Reflected XSS, and DOM-based XSS.
+        Each type has different attack vectors but similar impacts.
+
+        <br><br>
+        Preventing XSS requires proper output encoding,
+        input validation, and implementing security headers
+        such as Content-Security-Policy (CSP).
+      </p>
+    </details>
+  </section>
+
+  <section>
+    <h2>Cross-Site Request Forgery (CSRF)</h2>
+    <p>
+      CSRF forces users to perform unwanted actions without their consent.
+    </p>
+
+    <details>
+      <summary>More details</summary>
+      <p>
+        CSRF attacks exploit the trust that a web application has in a user’s browser.
+        When a user is authenticated, malicious requests can be sent without
+        the user knowing or approving the action.
+
+        <br><br>
+        For example, attackers can force users to change passwords,
+        transfer money, or modify account settings.
+        These attacks rely on active user sessions.
+
+        <br><br>
+        CSRF vulnerabilities are common in applications
+        that do not verify the origin of requests.
+
+        <br><br>
+        Effective prevention techniques include anti-CSRF tokens,
+        checking request headers, and using SameSite cookie attributes.
+      </p>
+    </details>
+  </section>
+
+  <section>
+    <h2>Remote Code Execution (RCE)</h2>
+    <p>
+      RCE allows attackers to execute arbitrary code on a server.
+    </p>
+
+    <details>
+      <summary>More details</summary>
+      <p>
+        Remote Code Execution is considered a critical vulnerability
+        because it can give attackers full control over a system.
+
+        <br><br>
+        Attackers may exploit insecure file uploads, command injections,
+        or outdated software components to execute malicious commands.
+
+        <br><br>
+        Once successful, attackers can steal data, install malware,
+        create backdoors, or use the server for further attacks.
+
+        <br><br>
+        Preventing RCE requires strict input validation,
+        disabling unnecessary system functions,
+        regular patching, and sandboxing risky processes.
+      </p>
+    </details>
+  </section>
+
+  <section>
+    <h2>Security Misconfiguration</h2>
+    <p>
+      Poor configuration settings can expose systems to attacks.
+    </p>
+
+    <details>
+      <summary>More details</summary>
+      <p>
+        Security Misconfiguration happens when systems are deployed
+        with insecure default settings or mismanaged permissions.
+
+        <br><br>
+        Examples include open admin panels, default passwords,
+        exposed error messages, and unnecessary open ports.
+
+        <br><br>
+        Attackers often scan systems specifically for misconfigurations
+        because they are easy to exploit.
+
+        <br><br>
+        Regular security audits, proper hardening procedures,
+        and minimal service exposure are the best defenses.
+      </p>
+    </details>
+  </section>
+
+</main>
+
+<div class="nav-buttons">
+        <a href="index.html"><button>Home</button></a>
+        <a href="about.html"><button>About Me</button></a>
+        <a href="skills.html"><button>My Skills</button></a>
+        <a href="contact.html"><button>Contact Me</button></a>
+</div>
+
+</body>
+</html>
